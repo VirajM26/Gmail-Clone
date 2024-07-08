@@ -1,0 +1,1570 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inbox (15) - virajmanmode2@gmail.com - Gmail</title>
+    <meta name="google" value="notranslate">
+    <link rel="shortcut icon" href="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+            transition: width  100ms ease-in-out;
+        }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#f6f8fc] font-sans transition-all transition-500 ease-in-out">
+    <!-- Header -->
+    <header class="p-2 max-w-full">
+        <div class="flex justify-between items-center w-full">
+            <div class="flex items-center min-w-[238px] pr-[30px]">
+                <button id="toggle-nav" class="p-3 mx-1 focus:outline-none hover:bg-[#e8eaed] rounded-full"
+                    title="Main menu">
+                    <svg class="text-[#5f6368]" focusable="false" viewBox="0 0 24 24" width="1.5em" height="1.5em">
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+                    </svg>
+                </button>
+                <img src="images/logo.png" alt="Gmail Logo">
+            </div>
+            <div class="flex items-center justify-start w-full">
+                <div
+                    class="flex items-center bg-[#eaf1fb] focus-within:bg-white focus-within:shadow-md p-1 mx-2.5 rounded-full w-full max-w-[720px]">
+                    <button class="p-2 focus:outline-none hover:bg-[#e8eaed] rounded-full" title="Search">
+                        <svg class="text-[#5f6368]" focusable="false" viewBox="0 0 24 24" width="1.5em" height="1.5em"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M20.49,19l-5.73-5.73C15.53,12.2,16,10.91,16,9.5C16,5.91,13.09,3,9.5,3S3,5.91,3,9.5C3,13.09,5.91,16,9.5,16 c1.41,0,2.7-0.47,3.77-1.24L19,20.49L20.49,19z M5,9.5C5,7.01,7.01,5,9.5,5S14,7.01,14,9.5S11.99,14,9.5,14S5,11.99,5,9.5z">
+                            </path>
+                            <path d="M0,0h24v24H0V0z" fill="none"></path>
+                        </svg>
+                    </button>
+                    <input type="text" placeholder="Search mail"
+                        class="bg-transparent focus:outline-none ml-0.5 w-full text-base placeholder:text-[#5e5e5e] focus:bg-white">
+                    <button class="p-2 focus:outline-none hover:bg-[#e8eaed] rounded-full" title="Show search options">
+                        <svg class="text-[#5f6368]" focusable="false" xmlns="http://www.w3.org/2000/svg" width="1.5em"
+                            height="1.5em" viewBox="0 0 24 24">
+                            <path
+                                d="M3 17v2h6v-2H3zM3 5v2h10V5H3zm10 16v-2h8v-2h-8v-2h-2v6h2zM7 9v2H3v2h4v2h2V9H7zm14 4v-2H11v2h10zm-6-4h2V7h4V5h-4V3h-2v6z">
+                            </path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="flex items-center gap-[6px] ml-[25px] mr-1">
+                <button class="p-2 focus:outline-none hover:bg-[#e8eaed] rounded-full" title="Support">
+                    <svg class="text-[#5f6368]" xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em"
+                        viewBox="0 0 24 24" fill="#000000" focusable="false">
+                        <path fill="none" d="M0 0h24v24H0z"></path>
+                        <path
+                            d="M11 18h2v-2h-2v2zm1-16C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c-2.21 0-4 1.79-4 4h2c0-1.1.9-2 2-2s2 .9 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5 0-2.21-1.79-4-4-4z">
+                        </path>
+                    </svg>
+                </button>
+                <button class="p-2 focus:outline-none hover:bg-[#e8eaed] rounded-full" title="Settings">
+                    <svg class="text-[#5f6368]" xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em"
+                        viewBox="0 0 24 24">
+                        <path
+                            d="M13.85 22.25h-3.7c-.74 0-1.36-.54-1.45-1.27l-.27-1.89c-.27-.14-.53-.29-.79-.46l-1.8.72c-.7.26-1.47-.03-1.81-.65L2.2 15.53c-.35-.66-.2-1.44.36-1.88l1.53-1.19c-.01-.15-.02-.3-.02-.46 0-.15.01-.31.02-.46l-1.52-1.19c-.59-.45-.74-1.26-.37-1.88l1.85-3.19c.34-.62 1.11-.9 1.79-.63l1.81.73c.26-.17.52-.32.78-.46l.27-1.91c.09-.7.71-1.25 1.44-1.25h3.7c.74 0 1.36.54 1.45 1.27l.27 1.89c.27.14.53.29.79.46l1.8-.72c.71-.26 1.48.03 1.82.65l1.84 3.18c.36.66.2 1.44-.36 1.88l-1.52 1.19c.01.15.02.3.02.46s-.01.31-.02.46l1.52 1.19c.56.45.72 1.23.37 1.86l-1.86 3.22c-.34.62-1.11.9-1.8.63l-1.8-.72c-.26.17-.52.32-.78.46l-.27 1.91c-.1.68-.72 1.22-1.46 1.22zm-3.23-2h2.76l.37-2.55.53-.22c.44-.18.88-.44 1.34-.78l.45-.34 2.38.96 1.38-2.4-2.03-1.58.07-.56c.03-.26.06-.51.06-.78s-.03-.53-.06-.78l-.07-.56 2.03-1.58-1.39-2.4-2.39.96-.45-.35c-.42-.32-.87-.58-1.33-.77l-.52-.22-.37-2.55h-2.76l-.37 2.55-.53.21c-.44.19-.88.44-1.34.79l-.45.33-2.38-.95-1.39 2.39 2.03 1.58-.07.56a7 7 0 0 0-.06.79c0 .26.02.53.06.78l.07.56-2.03 1.58 1.38 2.4 2.39-.96.45.35c.43.33.86.58 1.33.77l.53.22.38 2.55z">
+                        </path>
+                        <circle cx="12" cy="12" r="3.5"></circle>
+                    </svg>
+                </button>
+                <button class="p-2 focus:outline-none hover:bg-[#e8eaed] rounded-full" title="Google apps">
+                    <svg class="text-[#5f6368]" width="1.5em" height="1.5em" focusable="false" viewBox="0 0 24 24">
+                        <path
+                            d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z">
+                        </path>
+                        <image src="https://ssl.gstatic.com/gb/images/bar/al-icon.png" alt="" height="24" width="24"
+                            style="border:none;display:none \9"></image>
+                    </svg>
+                </button>
+                <div class="rounded-full mr-[3.5px] hover:bg-[#e8eaed] h-[40px] w-[40px] cursor-pointer"
+                    title="Google Account">
+                    <img class="p-1"
+                        src="https://lh3.googleusercontent.com/ogw/AF2bZygrv00disCJsYkbUaI_zObOIvZfwMuCkf78vtRkHUErkBk=s32-c-mo"
+                        alt="User Avatar">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="flex flex-row justify-between h-[91vh]">
+        <!-- Sidebar -->
+        <nav id="nav-bar"
+            class="w-[72px] mr-2 text-sm font-medium bg-transparent flex flex-col flex-wrap content-start">
+            <button
+                class="bg-[#c2e7ff] font-normal hover:shadow-md h-14 rounded-2xl mt-2 mb-4 ml-2 mr-auto flex items-center">
+                <div class="min-w-[56px] flex justify-center">
+                    <img width="24"
+                        src="https://www.gstatic.com/images/icons/material/system_gm/1x/create_black_24dp.png"
+                        alt="Compose icon">
+                </div>
+                <p class="hidden nav-item pr-6">Compose</p>
+            </button>
+            <ul class="cursor-pointer mb-5">
+                <li class="flex items-center gap-[14px] ml-[20px] w-fit rounded-full bg-[#d3e3fd]" title="Inbox">
+                    <img class="p-1.5"
+                        src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/inbox_fill_baseline_p900_20dp.png"
+                        alt="Inbox Icon">
+                    <div class="pr-4 justify-between hidden nav-item min-w-[174px] text-[#001d35]">
+                        <p>Inbox</p>
+                        <span>20</span>
+                    </div>
+                </li>
+                <li class="flex items-center gap-[14px] ml-[20px] w-fit rounded-full hover:bg-[#e8eaed]"
+                    title="Starred">
+                    <img class="p-1.5"
+                        src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/star_baseline_nv700_20dp.png"
+                        alt="Starred Icon">
+                    <span class="pr-3 hidden nav-item min-w-[174px] font-normal text-[#202124] ">Starred</span>
+                </li>
+                <li class="flex items-center gap-[14px] ml-[20px] w-fit rounded-full hover:bg-[#e8eaed]"
+                    title="Snoozed">
+                    <img class="p-1.5"
+                        src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/schedule_baseline_nv700_20dp.png"
+                        alt="Snoozed Icon">
+                    <span class="pr-3 hidden nav-item min-w-[174px] font-normal text-[#202124] ">Snoozed</span>
+                </li>
+                <li class="flex items-center gap-[14px] ml-[20px] w-fit rounded-full hover:bg-[#e8eaed]" title="Sent">
+                    <img class="p-1.5"
+                        src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/send_baseline_nv700_20dp.png"
+                        alt="Sent Icon">
+                    <span class="pr-3 hidden nav-item min-w-[174px] font-normal text-[#202124] ">Sent</span>
+                </li>
+                <li class="flex items-center gap-[14px] ml-[20px] w-fit rounded-full hover:bg-[#e8eaed]" title="Drafts">
+                    <img class="p-1.5"
+                        src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/draft_baseline_nv700_20dp.png"
+                        alt="Drafts Icon">
+                    <span class="pr-3 hidden nav-item min-w-[174px] font-normal text-[#202124] ">Drafts</span>
+                </li>
+                <li class="flex items-center gap-[14px] ml-[20px] w-fit rounded-full hover:bg-[#e8eaed]">
+                    <img class="p-1.5"
+                        src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/expand_more_baseline_nv700_20dp.png"
+                        alt="More Icon">
+                    <span class="pr-3 hidden nav-item min-w-[174px] font-normal text-[#202124] ">More</span>
+                </li>
+            </ul>
+
+            <div class="flex items-center gap-[14px] ml-[20px] mt-[2px] mb-[6.5px] w-fit text-base">
+                <span class="hidden nav-item min-w-[174px] ml-1.5 text-[#202124] cursor-default">Labels</span>
+                <img class="p-1.5 rounded-full hover:bg-[#e8eaed] cursor-pointer"
+                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/add_large_baseline_nv700_20dp.png"
+                    alt="Plus Icon" title="Create new label">
+            </div>
+            <ul class="cursor-pointer">
+                <li class="flex items-center gap-[14px] ml-[20px] w-fit rounded-full hover:bg-[#e8eaed]">
+                    <img class="p-1.5"
+                        src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/expand_more_baseline_nv700_20dp.png"
+                        alt="More Icon">
+                    <span class="pr-3 hidden nav-item min-w-[174px] font-normal text-[#202124] ">More</span>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Email List -->
+        <div class="bg-white rounded-2xl mb-[15px] w-full overflow-x-hidden">
+            <div class="flex justify-between items-center sticky bg-white z-[1] top-0 left-0 py-1 px-4 shadow-sm">
+                <div class="flex cursor-pointer">
+                    <div class="flex mr-2">
+                        <div class="py-[10px] px-[4px] mx-[-4px] rounded-md focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]"
+                            title="Select">
+                            <img class="h-5 w-5"
+                                src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/check_box_outline_blank_baseline_nv700_20dp.png"
+                                alt="Box Icon">
+                        </div>
+                        <div class="py-[10px] rounded-md focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Select">
+                            <img class="h-5 w-5"
+                                src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/arrow_drop_down_baseline_nv700_20dp.png"
+                                alt="Chevron down Icon">
+                        </div>
+                    </div>
+                    <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Refresh">
+                        <img class="h-5 w-5"
+                            src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/refresh_baseline_nv700_20dp.png"
+                            alt="Refresh Icon">
+                    </div>
+                    <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="More">
+                        <img class="h-5 w-5"
+                            src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/more_vert_baseline_nv700_20dp.png "
+                            alt="More Icon">
+                    </div>
+                </div>
+                <div class="flex cursor-pointer">
+                    <span
+                        class="py-[10px] px-2 rounded-md focus:bg-[#e4e4e4] hover:bg-[#f2f2f2] text-[12px] text-[#5e5e5e] cursor-pointer">1-40
+                        of 40</span>
+                    <div class="p-[10px]" title="Older">
+                        <img class="h-5 w-5 opacity-45"
+                            src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/chevron_left_baseline_nv700_20dp.png"
+                            alt="Chevron left Icon">
+                    </div>
+                    <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Newer">
+                        <img class="h-5 w-5"
+                            src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/chevron_right_baseline_nv700_20dp.png"
+                            alt="Chevron right Icon">
+                    </div>
+                    <div class="flex mx-2">
+                        <div class="py-[10px] px-[4px] mx-[-4px] mt-[2px] rounded-md focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]"
+                            title="Input tools on/off (Ctrl=+Shift+K)">
+                            <img class="h-4 w-5" src="https://i.ibb.co/RSXz0JR/output-onlinepngtools-3.png"
+                                alt="Keyboard Icon">
+                        </div>
+                        <div class="py-[10px] rounded-md focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]"
+                            title="Select input tools">
+                            <img class="h-5 w-5"
+                                src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/arrow_drop_down_baseline_nv700_20dp.png"
+                                alt="Chevron down Icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex justify-start items-center ">
+                <div
+                    class="flex justify-start flex-col max-h-[56px] py-[20px] px-4 gap-[15px] min-w-[251px] font-medium hover:bg-[#f4f4f4] cursor-pointer ">
+                    <div class="flex justify-start gap-[15px]">
+                        <img class="h-5 w-5"
+                            src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/inbox_fill_baseline_p600_20dp.png"
+                            alt="Image icon">
+                        <span class="text-[#0b57d0] text-[14px]">Primary</span>
+                    </div>
+                    <div
+                        class="bg-[#0b57d0] rounded-t-[3px] pb-[3px] block mx-[-8px] w-[235px] relative bottom-[3px] left-[0] right-[0]">
+                    </div>
+                </div>
+
+                <div
+                    class="flex justify-start max-h-[56px] py-[20px] px-4 gap-[15px] min-w-[252px] font-medium hover:bg-[#f4f4f4] cursor-pointer">
+                    <img class="h-5 w-5"
+                        src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/group_baseline_nv700_20dp.png"
+                        alt="Image icon">
+                    <div class="flex flex-col items-start mt-[-10px]">
+                        <p class="text-[#444746] text-[14px]">Social <span
+                                class="bg-[#1a73e8] rounded-full px-1 ml-2 leading-4 py-[0.8px] h-4 text-white text-[12px]">50
+                                new</span></p>
+                        <p class="text-[#444746] text-[12px] opacity-60 font-normal hover:opacity-100">Bachchan on
+                            instagram, Faceb...</p>
+                    </div>
+                </div>
+            </div>
+
+            <ul class="w-full">
+                <li
+                    class="flex justify-start border-solid border hover:border-x-[#e1e3e1] cursor-pointer hover:shadow-md border-y-[#e1e3e1] border-x-[#ffffff] w-full">
+                    <div class="flex items-center min-w-[275px]">
+                        <div class="py-[10px] mr-[-10px] cursor-grab">
+                            <img class="h-5 w-5 opacity-0 dragger-icon"
+                                src="https://i.ibb.co/ynh74Fp/output-onlinepngtools-4.png" alt="Dragger Icon">
+                        </div>
+                        <div class="p-[10px] mx-[-5px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2] cursor-pointer"
+                            title="Select">
+                            <img class="h-5 w-5 opacity-30"
+                                src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/check_box_outline_blank_baseline_nv700_20dp.png"
+                                alt="Box Icon">
+                        </div>
+                        <div class="p-[10px] ml-[-5px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2] cursor-pointer"
+                            title="Select">
+                            <img class="h-5 w-5 opacity-30"
+                                src="https://www.gstatic.com/images/icons/material/system_gm/1x/star_border_black_20dp.png"
+                                alt="Star Icon">
+                        </div>
+                        <p class="font-medium text-[14px]">Alice Johnson</p>
+                    </div>
+
+                    <div
+                        class="flex items-center gap-[5px] mr-[50px] min-w-[0] flex-1 flex-shrink flex-auto overflow-hidden">
+                        <p class="whitespace-nowrap font-medium text-[14px] text-[#202124]">Meeting Rescheduled</p>
+                        <span
+                            class="whitespace-nowrap overflow-hidden text-ellipsis font-normal text-[14px] text-[#5f6368]">-
+                            Hi team, the meeting has been rescheduled to Friday at 10 AM. Please adjust your calendars
+                            accordingly</span>
+                    </div>
+                    <div id="tools"
+                        class="min-w-[72px] pr-[16px] text-[12px] font-medium flex items-center justify-end tools-container">
+                        <span class="flex  ">12:08PM</span>
+                        <div class="hidden tools-icons">
+                            <div
+                                class="bg-[#ffffff] hover:bg-[#f2f2f2] flex h-[20px] px-2 mr-[10px] font-normal text-[12px] items-center my-auto rounded-md border-solid border border-[#e1e3e1]">
+                                <span>Unsubscribe</span>
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Archive">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/archive_baseline_nv700_20dp.png"
+                                    alt="Archive Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Delete">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/delete_baseline_nv700_20dp.png"
+                                    alt="Delete Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]"
+                                title="Mark as read">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/drafts_baseline_nv700_20dp.png"
+                                    alt="Drafts Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Snoozed">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/refresh_baseline_nv700_20dp.png"
+                                    alt="Snooze Icon">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li
+                    class="flex justify-start border-solid border hover:border-x-[#e1e3e1] cursor-pointer hover:shadow-md border-y-[#e1e3e1] border-x-[#ffffff] w-full">
+                    <div class="flex items-center min-w-[275px]">
+                        <div class="py-[10px] mr-[-10px] cursor-grab">
+                            <img class="h-5 w-5 opacity-0 dragger-icon"
+                                src="https://i.ibb.co/ynh74Fp/output-onlinepngtools-4.png" alt="Dragger Icon">
+                        </div>
+                        <div class="p-[10px] mx-[-5px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2] cursor-pointer"
+                            title="Select">
+                            <img class="h-5 w-5 opacity-30"
+                                src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/check_box_outline_blank_baseline_nv700_20dp.png"
+                                alt="Box Icon">
+                        </div>
+                        <div class="p-[10px] ml-[-5px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2] cursor-pointer"
+                            title="Select">
+                            <img class="h-5 w-5 opacity-30"
+                                src="https://www.gstatic.com/images/icons/material/system_gm/1x/star_border_black_20dp.png"
+                                alt="Star Icon">
+                        </div>
+                        <p class="font-medium text-[14px]">TechCorp - USA</p>
+                    </div>
+                    <div
+                        class="flex items-center gap-[5px] mr-[50px] min-w-[0] flex-1 flex-shrink flex-auto overflow-hidden">
+                        <p class="whitespace-nowrap font-medium text-[14px] text-[#202124]">Meeting Rescheduled 📅</p>
+                        <span
+                            class="whitespace-nowrap overflow-hidden text-ellipsis font-normal text-[14px] text-[#5f6368]">-
+                            Hi team, the meeting has been rescheduled to Friday at 10 AM. Please adjust your calendars
+                            accordingly</span>
+                    </div>
+                    <div id="tools"
+                        class="min-w-[72px] pr-[16px] text-[12px] font-medium flex items-center justify-end tools-container">
+                        <span class="flex  ">9:15AM</span>
+                        <div class="hidden tools-icons">
+                            <div
+                                class="bg-[#ffffff] hover:bg-[#f2f2f2] flex h-[20px] px-2 mr-[10px] font-normal text-[12px] items-center my-auto rounded-md border-solid border border-[#e1e3e1]">
+                                <span>Unsubscribe</span>
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Archive">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/archive_baseline_nv700_20dp.png"
+                                    alt="Archive Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Delete">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/delete_baseline_nv700_20dp.png"
+                                    alt="Delete Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]"
+                                title="Mark as read">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/drafts_baseline_nv700_20dp.png"
+                                    alt="Drafts Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Snoozed">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/refresh_baseline_nv700_20dp.png"
+                                    alt="Snooze Icon">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li
+                    class="flex justify-start border-solid border hover:border-x-[#e1e3e1] cursor-pointer hover:shadow-md border-y-[#e1e3e1] border-x-[#ffffff] w-full">
+                    <div class="flex items-center min-w-[275px]">
+                        <div class="py-[10px] mr-[-10px] cursor-grab">
+                            <img class="h-5 w-5 opacity-0 dragger-icon"
+                                src="https://i.ibb.co/ynh74Fp/output-onlinepngtools-4.png" alt="Dragger Icon">
+                        </div>
+                        <div class="p-[10px] mx-[-5px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2] cursor-pointer"
+                            title="Select">
+                            <img class="h-5 w-5 opacity-30"
+                                src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/check_box_outline_blank_baseline_nv700_20dp.png"
+                                alt="Box Icon">
+                        </div>
+                        <div class="p-[10px] ml-[-5px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2] cursor-pointer"
+                            title="Select">
+                            <img class="h-5 w-5 opacity-30"
+                                src="https://www.gstatic.com/images/icons/material/system_gm/1x/star_border_black_20dp.png"
+                                alt="Star Icon">
+                        </div>
+                        <p class="font-medium text-[14px]">Innovate Inc.</p>
+                    </div>
+                    <div
+                        class="flex items-center gap-[5px] mr-[50px] min-w-[0] flex-1 flex-shrink flex-auto overflow-hidden">
+                        <p class="whitespace-nowrap font-medium text-[14px] text-[#202124]">Project Update</p>
+                        <span
+                            class="whitespace-nowrap overflow-hidden text-ellipsis font-normal text-[14px] text-[#5f6368]">-
+                            The project is on track and we are expecting to complete the next milestone by the end of
+                            this week.</span>
+                    </div>
+                    <div id="tools"
+                        class="min-w-[72px] pr-[16px] text-[12px] font-medium flex items-center justify-end tools-container">
+                        <span class="flex  ">10:30AM</span>
+                        <div class="hidden tools-icons">
+                            <div
+                                class="bg-[#ffffff] hover:bg-[#f2f2f2] flex h-[20px] px-2 mr-[10px] font-normal text-[12px] items-center my-auto rounded-md border-solid border border-[#e1e3e1]">
+                                <span>Unsubscribe</span>
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Archive">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/archive_baseline_nv700_20dp.png"
+                                    alt="Archive Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Delete">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/delete_baseline_nv700_20dp.png"
+                                    alt="Delete Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]"
+                                title="Mark as read">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/drafts_baseline_nv700_20dp.png"
+                                    alt="Drafts Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Snoozed">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/refresh_baseline_nv700_20dp.png"
+                                    alt="Snooze Icon">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li
+                    class="flex justify-start border-solid border hover:border-x-[#e1e3e1] cursor-pointer hover:shadow-md border-y-[#e1e3e1] border-x-[#ffffff] w-full">
+                    <div class="flex items-center min-w-[275px]">
+                        <div class="py-[10px] mr-[-10px] cursor-grab">
+                            <img class="h-5 w-5 opacity-0 dragger-icon"
+                                src="https://i.ibb.co/ynh74Fp/output-onlinepngtools-4.png" alt="Dragger Icon">
+                        </div>
+                        <div class="p-[10px] mx-[-5px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2] cursor-pointer"
+                            title="Select">
+                            <img class="h-5 w-5 opacity-30"
+                                src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/check_box_outline_blank_baseline_nv700_20dp.png"
+                                alt="Box Icon">
+                        </div>
+                        <div class="p-[10px] ml-[-5px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2] cursor-pointer"
+                            title="Select">
+                            <img class="h-5 w-5 opacity-30"
+                                src="https://www.gstatic.com/images/icons/material/system_gm/1x/star_border_black_20dp.png"
+                                alt="Star Icon">
+                        </div>
+                        <p class="font-medium text-[14px]">Carol Davis from HealthPlus</p>
+                    </div>
+                    <div
+                        class="flex items-center gap-[5px] mr-[50px] min-w-[0] flex-1 flex-shrink flex-auto overflow-hidden">
+                        <p class="whitespace-nowrap font-medium text-[14px] text-[#202124]">New Employee Onboarding 🎉
+                        </p>
+                        <span
+                            class="whitespace-nowrap overflow-hidden text-ellipsis font-normal text-[14px] text-[#5f6368]">-
+                            Please welcome our new team member, John Doe. He will be joining us from Monday.</span>
+                    </div>
+                    <div id="tools"
+                        class="min-w-[72px] pr-[16px] text-[12px] font-medium flex items-center justify-end tools-container">
+                        <span class="flex  ">11:45AM</span>
+                        <div class="hidden tools-icons">
+                            <div
+                                class="bg-[#ffffff] hover:bg-[#f2f2f2] flex h-[20px] px-2 mr-[10px] font-normal text-[12px] items-center my-auto rounded-md border-solid border border-[#e1e3e1]">
+                                <span>Unsubscribe</span>
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Archive">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/archive_baseline_nv700_20dp.png"
+                                    alt="Archive Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Delete">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/delete_baseline_nv700_20dp.png"
+                                    alt="Delete Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]"
+                                title="Mark as read">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/drafts_baseline_nv700_20dp.png"
+                                    alt="Drafts Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Snoozed">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/refresh_baseline_nv700_20dp.png"
+                                    alt="Snooze Icon">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li
+                    class="flex justify-start border-solid border hover:border-x-[#e1e3e1] cursor-pointer hover:shadow-md border-y-[#e1e3e1] border-x-[#ffffff] w-full">
+                    <div class="flex items-center min-w-[275px]">
+                        <div class="py-[10px] mr-[-10px] cursor-grab">
+                            <img class="h-5 w-5 opacity-0 dragger-icon"
+                                src="https://i.ibb.co/ynh74Fp/output-onlinepngtools-4.png" alt="Dragger Icon">
+                        </div>
+                        <div class="p-[10px] mx-[-5px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2] cursor-pointer"
+                            title="Select">
+                            <img class="h-5 w-5 opacity-30"
+                                src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/check_box_outline_blank_baseline_nv700_20dp.png"
+                                alt="Box Icon">
+                        </div>
+                        <div class="p-[10px] ml-[-5px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2] cursor-pointer"
+                            title="Select">
+                            <img class="h-5 w-5 opacity-30"
+                                src="https://www.gstatic.com/images/icons/material/system_gm/1x/star_border_black_20dp.png"
+                                alt="Star Icon">
+                        </div>
+                        <p class="font-medium text-[14px]">David Brown</p>
+                    </div>
+                    <div
+                        class="flex items-center gap-[5px] mr-[50px] min-w-[0] flex-1 flex-shrink flex-auto overflow-hidden">
+                        <p class="whitespace-nowrap font-medium text-[14px] text-[#202124]">Budget Approval</p>
+                        <span
+                            class="whitespace-nowrap overflow-hidden text-ellipsis font-normal text-[14px] text-[#5f6368]">-💰
+                            The budget for the next quarter has been approved. Please review the attached document for
+                            details.</span>
+                    </div>
+                    <div id="tools"
+                        class="min-w-[72px] pr-[16px] text-[12px] font-medium flex items-center justify-end tools-container">
+                        <span class="flex  ">1:00PM</span>
+                        <div class="hidden tools-icons">
+                            <div
+                                class="bg-[#ffffff] hover:bg-[#f2f2f2] flex h-[20px] px-2 mr-[10px] font-normal text-[12px] items-center my-auto rounded-md border-solid border border-[#e1e3e1]">
+                                <span>Unsubscribe</span>
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Archive">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/archive_baseline_nv700_20dp.png"
+                                    alt="Archive Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Delete">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/delete_baseline_nv700_20dp.png"
+                                    alt="Delete Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]"
+                                title="Mark as read">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/drafts_baseline_nv700_20dp.png"
+                                    alt="Drafts Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Snoozed">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/refresh_baseline_nv700_20dp.png"
+                                    alt="Snooze Icon">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li
+                    class="flex justify-start border-solid border hover:border-x-[#e1e3e1] cursor-pointer hover:shadow-md border-y-[#e1e3e1] border-x-[#ffffff] w-full">
+                    <div class="flex items-center min-w-[275px]">
+                        <div class="py-[10px] mr-[-10px] cursor-grab">
+                            <img class="h-5 w-5 opacity-0 dragger-icon"
+                                src="https://i.ibb.co/ynh74Fp/output-onlinepngtools-4.png" alt="Dragger Icon">
+                        </div>
+                        <div class="p-[10px] mx-[-5px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2] cursor-pointer"
+                            title="Select">
+                            <img class="h-5 w-5 opacity-30"
+                                src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/check_box_outline_blank_baseline_nv700_20dp.png"
+                                alt="Box Icon">
+                        </div>
+                        <div class="p-[10px] ml-[-5px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2] cursor-pointer"
+                            title="Select">
+                            <img class="h-5 w-5 opacity-30"
+                                src="https://www.gstatic.com/images/icons/material/system_gm/1x/star_border_black_20dp.png"
+                                alt="Star Icon">
+                        </div>
+                        <p class="font-medium text-[14px]">Alice Johnson</p>
+                    </div>
+
+                    <div
+                        class="flex items-center gap-[5px] mr-[50px] min-w-[0] flex-1 flex-shrink flex-auto overflow-hidden">
+                        <p class="whitespace-nowrap font-medium text-[14px] text-[#202124]">Meeting Rescheduled</p>
+                        <span
+                            class="whitespace-nowrap overflow-hidden text-ellipsis font-normal text-[14px] text-[#5f6368]">-
+                            Hi team, the meeting has been rescheduled to Friday at 10 AM. Please adjust your calendars
+                            accordingly</span>
+                    </div>
+                    <div id="tools"
+                        class="min-w-[72px] pr-[16px] text-[12px] font-medium flex items-center justify-end tools-container">
+                        <span class="flex  ">12:08PM</span>
+                        <div class="hidden tools-icons">
+                            <div
+                                class="bg-[#ffffff] hover:bg-[#f2f2f2] flex h-[20px] px-2 mr-[10px] font-normal text-[12px] items-center my-auto rounded-md border-solid border border-[#e1e3e1]">
+                                <span>Unsubscribe</span>
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Archive">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/archive_baseline_nv700_20dp.png"
+                                    alt="Archive Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Delete">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/delete_baseline_nv700_20dp.png"
+                                    alt="Delete Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]"
+                                title="Mark as read">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/drafts_baseline_nv700_20dp.png"
+                                    alt="Drafts Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Snoozed">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/refresh_baseline_nv700_20dp.png"
+                                    alt="Snooze Icon">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li
+                    class="flex justify-start border-solid border hover:border-x-[#e1e3e1] cursor-pointer hover:shadow-md border-y-[#e1e3e1] border-x-[#ffffff] w-full">
+                    <div class="flex items-center min-w-[275px]">
+                        <div class="py-[10px] mr-[-10px] cursor-grab">
+                            <img class="h-5 w-5 opacity-0 dragger-icon"
+                                src="https://i.ibb.co/ynh74Fp/output-onlinepngtools-4.png" alt="Dragger Icon">
+                        </div>
+                        <div class="p-[10px] mx-[-5px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2] cursor-pointer"
+                            title="Select">
+                            <img class="h-5 w-5 opacity-30"
+                                src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/check_box_outline_blank_baseline_nv700_20dp.png"
+                                alt="Box Icon">
+                        </div>
+                        <div class="p-[10px] ml-[-5px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2] cursor-pointer"
+                            title="Select">
+                            <img class="h-5 w-5 opacity-30"
+                                src="https://www.gstatic.com/images/icons/material/system_gm/1x/star_border_black_20dp.png"
+                                alt="Star Icon">
+                        </div>
+                        <p class="font-medium text-[14px]">TechCorp - USA</p>
+                    </div>
+                    <div
+                        class="flex items-center gap-[5px] mr-[50px] min-w-[0] flex-1 flex-shrink flex-auto overflow-hidden">
+                        <p class="whitespace-nowrap font-medium text-[14px] text-[#202124]">Meeting Rescheduled 📅</p>
+                        <span
+                            class="whitespace-nowrap overflow-hidden text-ellipsis font-normal text-[14px] text-[#5f6368]">-
+                            Hi team, the meeting has been rescheduled to Friday at 10 AM. Please adjust your calendars
+                            accordingly</span>
+                    </div>
+                    <div id="tools"
+                        class="min-w-[72px] pr-[16px] text-[12px] font-medium flex items-center justify-end tools-container">
+                        <span class="flex  ">9:15AM</span>
+                        <div class="hidden tools-icons">
+                            <div
+                                class="bg-[#ffffff] hover:bg-[#f2f2f2] flex h-[20px] px-2 mr-[10px] font-normal text-[12px] items-center my-auto rounded-md border-solid border border-[#e1e3e1]">
+                                <span>Unsubscribe</span>
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Archive">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/archive_baseline_nv700_20dp.png"
+                                    alt="Archive Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Delete">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/delete_baseline_nv700_20dp.png"
+                                    alt="Delete Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]"
+                                title="Mark as read">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/drafts_baseline_nv700_20dp.png"
+                                    alt="Drafts Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Snoozed">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/refresh_baseline_nv700_20dp.png"
+                                    alt="Snooze Icon">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li
+                    class="flex justify-start border-solid border hover:border-x-[#e1e3e1] cursor-pointer hover:shadow-md border-y-[#e1e3e1] border-x-[#ffffff] w-full">
+                    <div class="flex items-center min-w-[275px]">
+                        <div class="py-[10px] mr-[-10px] cursor-grab">
+                            <img class="h-5 w-5 opacity-0 dragger-icon"
+                                src="https://i.ibb.co/ynh74Fp/output-onlinepngtools-4.png" alt="Dragger Icon">
+                        </div>
+                        <div class="p-[10px] mx-[-5px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2] cursor-pointer"
+                            title="Select">
+                            <img class="h-5 w-5 opacity-30"
+                                src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/check_box_outline_blank_baseline_nv700_20dp.png"
+                                alt="Box Icon">
+                        </div>
+                        <div class="p-[10px] ml-[-5px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2] cursor-pointer"
+                            title="Select">
+                            <img class="h-5 w-5 opacity-30"
+                                src="https://www.gstatic.com/images/icons/material/system_gm/1x/star_border_black_20dp.png"
+                                alt="Star Icon">
+                        </div>
+                        <p class="font-medium text-[14px]">Innovate Inc.</p>
+                    </div>
+                    <div
+                        class="flex items-center gap-[5px] mr-[50px] min-w-[0] flex-1 flex-shrink flex-auto overflow-hidden">
+                        <p class="whitespace-nowrap font-medium text-[14px] text-[#202124]">Project Update</p>
+                        <span
+                            class="whitespace-nowrap overflow-hidden text-ellipsis font-normal text-[14px] text-[#5f6368]">-
+                            The project is on track and we are expecting to complete the next milestone by the end of
+                            this week.</span>
+                    </div>
+                    <div id="tools"
+                        class="min-w-[72px] pr-[16px] text-[12px] font-medium flex items-center justify-end tools-container">
+                        <span class="flex  ">10:30AM</span>
+                        <div class="hidden tools-icons">
+                            <div
+                                class="bg-[#ffffff] hover:bg-[#f2f2f2] flex h-[20px] px-2 mr-[10px] font-normal text-[12px] items-center my-auto rounded-md border-solid border border-[#e1e3e1]">
+                                <span>Unsubscribe</span>
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Archive">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/archive_baseline_nv700_20dp.png"
+                                    alt="Archive Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Delete">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/delete_baseline_nv700_20dp.png"
+                                    alt="Delete Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]"
+                                title="Mark as read">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/drafts_baseline_nv700_20dp.png"
+                                    alt="Drafts Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Snoozed">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/refresh_baseline_nv700_20dp.png"
+                                    alt="Snooze Icon">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li
+                    class="flex justify-start border-solid border hover:border-x-[#e1e3e1] cursor-pointer hover:shadow-md border-y-[#e1e3e1] border-x-[#ffffff] w-full">
+                    <div class="flex items-center min-w-[275px]">
+                        <div class="py-[10px] mr-[-10px] cursor-grab">
+                            <img class="h-5 w-5 opacity-0 dragger-icon"
+                                src="https://i.ibb.co/ynh74Fp/output-onlinepngtools-4.png" alt="Dragger Icon">
+                        </div>
+                        <div class="p-[10px] mx-[-5px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2] cursor-pointer"
+                            title="Select">
+                            <img class="h-5 w-5 opacity-30"
+                                src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/check_box_outline_blank_baseline_nv700_20dp.png"
+                                alt="Box Icon">
+                        </div>
+                        <div class="p-[10px] ml-[-5px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2] cursor-pointer"
+                            title="Select">
+                            <img class="h-5 w-5 opacity-30"
+                                src="https://www.gstatic.com/images/icons/material/system_gm/1x/star_border_black_20dp.png"
+                                alt="Star Icon">
+                        </div>
+                        <p class="font-medium text-[14px]">Carol Davis from HealthPlus</p>
+                    </div>
+                    <div
+                        class="flex items-center gap-[5px] mr-[50px] min-w-[0] flex-1 flex-shrink flex-auto overflow-hidden">
+                        <p class="whitespace-nowrap font-medium text-[14px] text-[#202124]">New Employee Onboarding 🎉
+                        </p>
+                        <span
+                            class="whitespace-nowrap overflow-hidden text-ellipsis font-normal text-[14px] text-[#5f6368]">-
+                            Please welcome our new team member, John Doe. He will be joining us from Monday.</span>
+                    </div>
+                    <div id="tools"
+                        class="min-w-[72px] pr-[16px] text-[12px] font-medium flex items-center justify-end tools-container">
+                        <span class="flex  ">11:45AM</span>
+                        <div class="hidden tools-icons">
+                            <div
+                                class="bg-[#ffffff] hover:bg-[#f2f2f2] flex h-[20px] px-2 mr-[10px] font-normal text-[12px] items-center my-auto rounded-md border-solid border border-[#e1e3e1]">
+                                <span>Unsubscribe</span>
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Archive">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/archive_baseline_nv700_20dp.png"
+                                    alt="Archive Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Delete">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/delete_baseline_nv700_20dp.png"
+                                    alt="Delete Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]"
+                                title="Mark as read">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/drafts_baseline_nv700_20dp.png"
+                                    alt="Drafts Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Snoozed">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/refresh_baseline_nv700_20dp.png"
+                                    alt="Snooze Icon">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li
+                    class="flex justify-start border-solid border hover:border-x-[#e1e3e1] cursor-pointer hover:shadow-md border-y-[#e1e3e1] border-x-[#ffffff] w-full">
+                    <div class="flex items-center min-w-[275px]">
+                        <div class="py-[10px] mr-[-10px] cursor-grab">
+                            <img class="h-5 w-5 opacity-0 dragger-icon"
+                                src="https://i.ibb.co/ynh74Fp/output-onlinepngtools-4.png" alt="Dragger Icon">
+                        </div>
+                        <div class="p-[10px] mx-[-5px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2] cursor-pointer"
+                            title="Select">
+                            <img class="h-5 w-5 opacity-30"
+                                src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/check_box_outline_blank_baseline_nv700_20dp.png"
+                                alt="Box Icon">
+                        </div>
+                        <div class="p-[10px] ml-[-5px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2] cursor-pointer"
+                            title="Select">
+                            <img class="h-5 w-5 opacity-30"
+                                src="https://www.gstatic.com/images/icons/material/system_gm/1x/star_border_black_20dp.png"
+                                alt="Star Icon">
+                        </div>
+                        <p class="font-medium text-[14px]">David Brown</p>
+                    </div>
+                    <div
+                        class="flex items-center gap-[5px] mr-[50px] min-w-[0] flex-1 flex-shrink flex-auto overflow-hidden">
+                        <p class="whitespace-nowrap font-medium text-[14px] text-[#202124]">Budget Approval</p>
+                        <span
+                            class="whitespace-nowrap overflow-hidden text-ellipsis font-normal text-[14px] text-[#5f6368]">-💰
+                            The budget for the next quarter has been approved. Please review the attached document for
+                            details.</span>
+                    </div>
+                    <div id="tools"
+                        class="min-w-[72px] pr-[16px] text-[12px] font-medium flex items-center justify-end tools-container">
+                        <span class="flex  ">1:00PM</span>
+                        <div class="hidden tools-icons">
+                            <div
+                                class="bg-[#ffffff] hover:bg-[#f2f2f2] flex h-[20px] px-2 mr-[10px] font-normal text-[12px] items-center my-auto rounded-md border-solid border border-[#e1e3e1]">
+                                <span>Unsubscribe</span>
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Archive">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/archive_baseline_nv700_20dp.png"
+                                    alt="Archive Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Delete">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/delete_baseline_nv700_20dp.png"
+                                    alt="Delete Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]"
+                                title="Mark as read">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/drafts_baseline_nv700_20dp.png"
+                                    alt="Drafts Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Snoozed">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/refresh_baseline_nv700_20dp.png"
+                                    alt="Snooze Icon">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li
+                    class="flex justify-start border-solid border hover:border-x-[#e1e3e1] cursor-pointer hover:shadow-md border-y-[#e1e3e1] border-x-[#ffffff] w-full">
+                    <div class="flex items-center min-w-[275px]">
+                        <div class="py-[10px] mr-[-10px] cursor-grab">
+                            <img class="h-5 w-5 opacity-0 dragger-icon"
+                                src="https://i.ibb.co/ynh74Fp/output-onlinepngtools-4.png" alt="Dragger Icon">
+                        </div>
+                        <div class="p-[10px] mx-[-5px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2] cursor-pointer"
+                            title="Select">
+                            <img class="h-5 w-5 opacity-30"
+                                src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/check_box_outline_blank_baseline_nv700_20dp.png"
+                                alt="Box Icon">
+                        </div>
+                        <div class="p-[10px] ml-[-5px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2] cursor-pointer"
+                            title="Select">
+                            <img class="h-5 w-5 opacity-30"
+                                src="https://www.gstatic.com/images/icons/material/system_gm/1x/star_border_black_20dp.png"
+                                alt="Star Icon">
+                        </div>
+                        <p class="font-medium text-[14px]">Alice Johnson</p>
+                    </div>
+
+                    <div
+                        class="flex items-center gap-[5px] mr-[50px] min-w-[0] flex-1 flex-shrink flex-auto overflow-hidden">
+                        <p class="whitespace-nowrap font-medium text-[14px] text-[#202124]">Meeting Rescheduled</p>
+                        <span
+                            class="whitespace-nowrap overflow-hidden text-ellipsis font-normal text-[14px] text-[#5f6368]">-
+                            Hi team, the meeting has been rescheduled to Friday at 10 AM. Please adjust your calendars
+                            accordingly</span>
+                    </div>
+                    <div id="tools"
+                        class="min-w-[72px] pr-[16px] text-[12px] font-medium flex items-center justify-end tools-container">
+                        <span class="flex  ">12:08PM</span>
+                        <div class="hidden tools-icons">
+                            <div
+                                class="bg-[#ffffff] hover:bg-[#f2f2f2] flex h-[20px] px-2 mr-[10px] font-normal text-[12px] items-center my-auto rounded-md border-solid border border-[#e1e3e1]">
+                                <span>Unsubscribe</span>
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Archive">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/archive_baseline_nv700_20dp.png"
+                                    alt="Archive Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Delete">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/delete_baseline_nv700_20dp.png"
+                                    alt="Delete Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]"
+                                title="Mark as read">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/drafts_baseline_nv700_20dp.png"
+                                    alt="Drafts Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Snoozed">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/refresh_baseline_nv700_20dp.png"
+                                    alt="Snooze Icon">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li
+                    class="flex justify-start border-solid border hover:border-x-[#e1e3e1] cursor-pointer hover:shadow-md border-y-[#e1e3e1] border-x-[#ffffff] w-full">
+                    <div class="flex items-center min-w-[275px]">
+                        <div class="py-[10px] mr-[-10px] cursor-grab">
+                            <img class="h-5 w-5 opacity-0 dragger-icon"
+                                src="https://i.ibb.co/ynh74Fp/output-onlinepngtools-4.png" alt="Dragger Icon">
+                        </div>
+                        <div class="p-[10px] mx-[-5px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2] cursor-pointer"
+                            title="Select">
+                            <img class="h-5 w-5 opacity-30"
+                                src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/check_box_outline_blank_baseline_nv700_20dp.png"
+                                alt="Box Icon">
+                        </div>
+                        <div class="p-[10px] ml-[-5px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2] cursor-pointer"
+                            title="Select">
+                            <img class="h-5 w-5 opacity-30"
+                                src="https://www.gstatic.com/images/icons/material/system_gm/1x/star_border_black_20dp.png"
+                                alt="Star Icon">
+                        </div>
+                        <p class="font-medium text-[14px]">TechCorp - USA</p>
+                    </div>
+                    <div
+                        class="flex items-center gap-[5px] mr-[50px] min-w-[0] flex-1 flex-shrink flex-auto overflow-hidden">
+                        <p class="whitespace-nowrap font-medium text-[14px] text-[#202124]">Meeting Rescheduled 📅</p>
+                        <span
+                            class="whitespace-nowrap overflow-hidden text-ellipsis font-normal text-[14px] text-[#5f6368]">-
+                            Hi team, the meeting has been rescheduled to Friday at 10 AM. Please adjust your calendars
+                            accordingly</span>
+                    </div>
+                    <div id="tools"
+                        class="min-w-[72px] pr-[16px] text-[12px] font-medium flex items-center justify-end tools-container">
+                        <span class="flex  ">9:15AM</span>
+                        <div class="hidden tools-icons">
+                            <div
+                                class="bg-[#ffffff] hover:bg-[#f2f2f2] flex h-[20px] px-2 mr-[10px] font-normal text-[12px] items-center my-auto rounded-md border-solid border border-[#e1e3e1]">
+                                <span>Unsubscribe</span>
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Archive">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/archive_baseline_nv700_20dp.png"
+                                    alt="Archive Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Delete">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/delete_baseline_nv700_20dp.png"
+                                    alt="Delete Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]"
+                                title="Mark as read">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/drafts_baseline_nv700_20dp.png"
+                                    alt="Drafts Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Snoozed">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/refresh_baseline_nv700_20dp.png"
+                                    alt="Snooze Icon">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li
+                    class="flex justify-start border-solid border hover:border-x-[#e1e3e1] cursor-pointer hover:shadow-md border-y-[#e1e3e1] border-x-[#ffffff] w-full">
+                    <div class="flex items-center min-w-[275px]">
+                        <div class="py-[10px] mr-[-10px] cursor-grab">
+                            <img class="h-5 w-5 opacity-0 dragger-icon"
+                                src="https://i.ibb.co/ynh74Fp/output-onlinepngtools-4.png" alt="Dragger Icon">
+                        </div>
+                        <div class="p-[10px] mx-[-5px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2] cursor-pointer"
+                            title="Select">
+                            <img class="h-5 w-5 opacity-30"
+                                src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/check_box_outline_blank_baseline_nv700_20dp.png"
+                                alt="Box Icon">
+                        </div>
+                        <div class="p-[10px] ml-[-5px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2] cursor-pointer"
+                            title="Select">
+                            <img class="h-5 w-5 opacity-30"
+                                src="https://www.gstatic.com/images/icons/material/system_gm/1x/star_border_black_20dp.png"
+                                alt="Star Icon">
+                        </div>
+                        <p class="font-medium text-[14px]">Innovate Inc.</p>
+                    </div>
+                    <div
+                        class="flex items-center gap-[5px] mr-[50px] min-w-[0] flex-1 flex-shrink flex-auto overflow-hidden">
+                        <p class="whitespace-nowrap font-medium text-[14px] text-[#202124]">Project Update</p>
+                        <span
+                            class="whitespace-nowrap overflow-hidden text-ellipsis font-normal text-[14px] text-[#5f6368]">-
+                            The project is on track and we are expecting to complete the next milestone by the end of
+                            this week.</span>
+                    </div>
+                    <div id="tools"
+                        class="min-w-[72px] pr-[16px] text-[12px] font-medium flex items-center justify-end tools-container">
+                        <span class="flex  ">10:30AM</span>
+                        <div class="hidden tools-icons">
+                            <div
+                                class="bg-[#ffffff] hover:bg-[#f2f2f2] flex h-[20px] px-2 mr-[10px] font-normal text-[12px] items-center my-auto rounded-md border-solid border border-[#e1e3e1]">
+                                <span>Unsubscribe</span>
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Archive">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/archive_baseline_nv700_20dp.png"
+                                    alt="Archive Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Delete">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/delete_baseline_nv700_20dp.png"
+                                    alt="Delete Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]"
+                                title="Mark as read">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/drafts_baseline_nv700_20dp.png"
+                                    alt="Drafts Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Snoozed">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/refresh_baseline_nv700_20dp.png"
+                                    alt="Snooze Icon">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li
+                    class="flex justify-start border-solid border hover:border-x-[#e1e3e1] cursor-pointer hover:shadow-md border-y-[#e1e3e1] border-x-[#ffffff] w-full">
+                    <div class="flex items-center min-w-[275px]">
+                        <div class="py-[10px] mr-[-10px] cursor-grab">
+                            <img class="h-5 w-5 opacity-0 dragger-icon"
+                                src="https://i.ibb.co/ynh74Fp/output-onlinepngtools-4.png" alt="Dragger Icon">
+                        </div>
+                        <div class="p-[10px] mx-[-5px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2] cursor-pointer"
+                            title="Select">
+                            <img class="h-5 w-5 opacity-30"
+                                src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/check_box_outline_blank_baseline_nv700_20dp.png"
+                                alt="Box Icon">
+                        </div>
+                        <div class="p-[10px] ml-[-5px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2] cursor-pointer"
+                            title="Select">
+                            <img class="h-5 w-5 opacity-30"
+                                src="https://www.gstatic.com/images/icons/material/system_gm/1x/star_border_black_20dp.png"
+                                alt="Star Icon">
+                        </div>
+                        <p class="font-medium text-[14px]">Carol Davis from HealthPlus</p>
+                    </div>
+                    <div
+                        class="flex items-center gap-[5px] mr-[50px] min-w-[0] flex-1 flex-shrink flex-auto overflow-hidden">
+                        <p class="whitespace-nowrap font-medium text-[14px] text-[#202124]">New Employee Onboarding 🎉
+                        </p>
+                        <span
+                            class="whitespace-nowrap overflow-hidden text-ellipsis font-normal text-[14px] text-[#5f6368]">-
+                            Please welcome our new team member, John Doe. He will be joining us from Monday.</span>
+                    </div>
+                    <div id="tools"
+                        class="min-w-[72px] pr-[16px] text-[12px] font-medium flex items-center justify-end tools-container">
+                        <span class="flex  ">11:45AM</span>
+                        <div class="hidden tools-icons">
+                            <div
+                                class="bg-[#ffffff] hover:bg-[#f2f2f2] flex h-[20px] px-2 mr-[10px] font-normal text-[12px] items-center my-auto rounded-md border-solid border border-[#e1e3e1]">
+                                <span>Unsubscribe</span>
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Archive">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/archive_baseline_nv700_20dp.png"
+                                    alt="Archive Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Delete">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/delete_baseline_nv700_20dp.png"
+                                    alt="Delete Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]"
+                                title="Mark as read">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/drafts_baseline_nv700_20dp.png"
+                                    alt="Drafts Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Snoozed">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/refresh_baseline_nv700_20dp.png"
+                                    alt="Snooze Icon">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li
+                    class="flex justify-start border-solid border hover:border-x-[#e1e3e1] cursor-pointer hover:shadow-md border-y-[#e1e3e1] border-x-[#ffffff] w-full hover:z-[1] relative">
+                    <div class="flex items-center min-w-[275px]">
+                        <div class="py-[10px] mr-[-10px] cursor-grab">
+                            <img class="h-5 w-5 opacity-0 dragger-icon"
+                                src="https://i.ibb.co/ynh74Fp/output-onlinepngtools-4.png" alt="Dragger Icon">
+                        </div>
+                        <div class="p-[10px] mx-[-5px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2] cursor-pointer"
+                            title="Select">
+                            <img class="h-5 w-5 opacity-30"
+                                src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/check_box_outline_blank_baseline_nv700_20dp.png"
+                                alt="Box Icon">
+                        </div>
+                        <div class="p-[10px] ml-[-5px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2] cursor-pointer"
+                            title="Select">
+                            <img class="h-5 w-5 opacity-30"
+                                src="https://www.gstatic.com/images/icons/material/system_gm/1x/star_border_black_20dp.png"
+                                alt="Star Icon">
+                        </div>
+                        <p class="font-medium text-[14px]">David Brown</p>
+                    </div>
+                    <div
+                        class="flex items-center gap-[5px] mr-[50px] min-w-[0] flex-1 flex-shrink flex-auto overflow-hidden">
+                        <p class="whitespace-nowrap font-medium text-[14px] text-[#202124]">Budget Approval</p>
+                        <span
+                            class="whitespace-nowrap overflow-hidden text-ellipsis font-normal text-[14px] text-[#5f6368]">-💰
+                            The budget for the next quarter has been approved. Please review the attached document for
+                            details.</span>
+                    </div>
+                    <div id="tools"
+                        class="min-w-[72px] pr-[16px] text-[12px] font-medium flex items-center justify-end tools-container">
+                        <span class="flex  ">1:00PM</span>
+                        <div class="hidden tools-icons">
+                            <div
+                                class="bg-[#ffffff] hover:bg-[#f2f2f2] flex h-[20px] px-2 mr-[10px] font-normal text-[12px] items-center my-auto rounded-md border-solid border border-[#e1e3e1]">
+                                <span>Unsubscribe</span>
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Archive">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/archive_baseline_nv700_20dp.png"
+                                    alt="Archive Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Delete">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/delete_baseline_nv700_20dp.png"
+                                    alt="Delete Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]"
+                                title="Mark as read">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/drafts_baseline_nv700_20dp.png"
+                                    alt="Drafts Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Snoozed">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/refresh_baseline_nv700_20dp.png"
+                                    alt="Snooze Icon">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li
+                    class="flex justify-start border-solid border hover:border-x-[#e1e3e1] cursor-pointer hover:shadow-md border-y-[#e1e3e1] border-x-[#f2f6fc] w-full bg-[#f2f6fc] hover:z-[1] relative">
+                    <div class="flex items-center min-w-[275px]">
+                        <div class="py-[10px] mr-[-10px] cursor-grab">
+                            <img class="h-5 w-5 opacity-0 dragger-icon"
+                                src="https://i.ibb.co/ynh74Fp/output-onlinepngtools-4.png" alt="Dragger Icon">
+                        </div>
+                        <div class="p-[10px] mx-[-5px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2] cursor-pointer"
+                            title="Select">
+                            <img class="h-5 w-5 opacity-30"
+                                src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/check_box_outline_blank_baseline_nv700_20dp.png"
+                                alt="Box Icon">
+                        </div>
+                        <div class="p-[10px] ml-[-5px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2] cursor-pointer"
+                            title="Select">
+                            <img class="h-5 w-5 opacity-30"
+                                src="https://www.gstatic.com/images/icons/material/system_gm/1x/star_border_black_20dp.png"
+                                alt="Star Icon">
+                        </div>
+                        <p class="font-normal text-[14px]">Alice Johnson</p>
+                    </div>
+
+                    <div
+                        class="flex items-center gap-[5px] mr-[50px] min-w-[0] flex-1 flex-shrink flex-auto overflow-hidden">
+                        <p class="whitespace-nowrap font-normal text-[14px] text-[#202124]">Meeting Rescheduled</p>
+                        <span
+                            class="whitespace-nowrap overflow-hidden text-ellipsis font-normal text-[14px] text-[#5f6368]">-
+                            Hi team, the meeting has been rescheduled to Friday at 10 AM. Please adjust your calendars
+                            accordingly</span>
+                    </div>
+                    <div id="tools"
+                        class="min-w-[72px] pr-[16px] text-[12px] font-medium flex items-center justify-end tools-container">
+                        <span class="flex  ">12:08PM</span>
+                        <div class="hidden tools-icons">
+                            <div
+                                class="bg-[#ffffff] hover:bg-[#f2f2f2] flex h-[20px] px-2 mr-[10px] font-normal text-[12px] items-center my-auto rounded-md border-solid border border-[#e1e3e1]">
+                                <span>Unsubscribe</span>
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Archive">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/archive_baseline_nv700_20dp.png"
+                                    alt="Archive Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Delete">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/delete_baseline_nv700_20dp.png"
+                                    alt="Delete Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]"
+                                title="Mark as read">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/drafts_baseline_nv700_20dp.png"
+                                    alt="Drafts Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Snoozed">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/refresh_baseline_nv700_20dp.png"
+                                    alt="Snooze Icon">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li
+                    class="flex justify-start border-solid border hover:border-x-[#e1e3e1] cursor-pointer hover:shadow-md border-y-[#e1e3e1] border-x-[#f2f6fc] w-full bg-[#f2f6fc] hover:z-[1] relative">
+                    <div class="flex items-center min-w-[275px]">
+                        <div class="py-[10px] mr-[-10px] cursor-grab">
+                            <img class="h-5 w-5 opacity-0 dragger-icon"
+                                src="https://i.ibb.co/ynh74Fp/output-onlinepngtools-4.png" alt="Dragger Icon">
+                        </div>
+                        <div class="p-[10px] mx-[-5px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2] cursor-pointer"
+                            title="Select">
+                            <img class="h-5 w-5 opacity-30"
+                                src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/check_box_outline_blank_baseline_nv700_20dp.png"
+                                alt="Box Icon">
+                        </div>
+                        <div class="p-[10px] ml-[-5px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2] cursor-pointer"
+                            title="Select">
+                            <img class="h-5 w-5 opacity-30"
+                                src="https://www.gstatic.com/images/icons/material/system_gm/1x/star_border_black_20dp.png"
+                                alt="Star Icon">
+                        </div>
+                        <p class="font-normal text-[14px]">TechCorp - USA</p>
+                    </div>
+                    <div
+                        class="flex items-center gap-[5px] mr-[50px] min-w-[0] flex-1 flex-shrink flex-auto overflow-hidden">
+                        <p class="whitespace-nowrap font-normal text-[14px] text-[#202124]">Meeting Rescheduled 📅</p>
+                        <span
+                            class="whitespace-nowrap overflow-hidden text-ellipsis font-normal text-[14px] text-[#5f6368]">-
+                            Hi team, the meeting has been rescheduled to Friday at 10 AM. Please adjust your calendars
+                            accordingly</span>
+                    </div>
+                    <div id="tools"
+                        class="min-w-[72px] pr-[16px] text-[12px] font-medium flex items-center justify-end tools-container">
+                        <span class="flex  ">9:15AM</span>
+                        <div class="hidden tools-icons">
+                            <div
+                                class="bg-[#ffffff] hover:bg-[#f2f2f2] flex h-[20px] px-2 mr-[10px] font-normal text-[12px] items-center my-auto rounded-md border-solid border border-[#e1e3e1]">
+                                <span>Unsubscribe</span>
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Archive">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/archive_baseline_nv700_20dp.png"
+                                    alt="Archive Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Delete">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/delete_baseline_nv700_20dp.png"
+                                    alt="Delete Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]"
+                                title="Mark as read">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/drafts_baseline_nv700_20dp.png"
+                                    alt="Drafts Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Snoozed">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/refresh_baseline_nv700_20dp.png"
+                                    alt="Snooze Icon">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li
+                    class="flex justify-start border-solid border hover:border-x-[#e1e3e1] cursor-pointer hover:shadow-md border-y-[#e1e3e1] border-x-[#f2f6fc] w-full bg-[#f2f6fc] hover:z-[1] relative">
+                    <div class="flex items-center min-w-[275px]">
+                        <div class="py-[10px] mr-[-10px] cursor-grab">
+                            <img class="h-5 w-5 opacity-0 dragger-icon"
+                                src="https://i.ibb.co/ynh74Fp/output-onlinepngtools-4.png" alt="Dragger Icon">
+                        </div>
+                        <div class="p-[10px] mx-[-5px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2] cursor-pointer"
+                            title="Select">
+                            <img class="h-5 w-5 opacity-30"
+                                src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/check_box_outline_blank_baseline_nv700_20dp.png"
+                                alt="Box Icon">
+                        </div>
+                        <div class="p-[10px] ml-[-5px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2] cursor-pointer"
+                            title="Select">
+                            <img class="h-5 w-5 opacity-30"
+                                src="https://www.gstatic.com/images/icons/material/system_gm/1x/star_border_black_20dp.png"
+                                alt="Star Icon">
+                        </div>
+                        <p class="font-normal text-[14px]">Innovate Inc.</p>
+                    </div>
+                    <div
+                        class="flex items-center gap-[5px] mr-[50px] min-w-[0] flex-1 flex-shrink flex-auto overflow-hidden">
+                        <p class="whitespace-nowrap font-normal text-[14px] text-[#202124]">Project Update</p>
+                        <span
+                            class="whitespace-nowrap overflow-hidden text-ellipsis font-normal text-[14px] text-[#5f6368]">-
+                            The project is on track and we are expecting to complete the next milestone by the end of
+                            this week.</span>
+                    </div>
+                    <div id="tools"
+                        class="min-w-[72px] pr-[16px] text-[12px] font-medium flex items-center justify-end tools-container">
+                        <span class="flex  ">10:30AM</span>
+                        <div class="hidden tools-icons">
+                            <div
+                                class="bg-[#ffffff] hover:bg-[#f2f2f2] flex h-[20px] px-2 mr-[10px] font-normal text-[12px] items-center my-auto rounded-md border-solid border border-[#e1e3e1]">
+                                <span>Unsubscribe</span>
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Archive">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/archive_baseline_nv700_20dp.png"
+                                    alt="Archive Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Delete">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/delete_baseline_nv700_20dp.png"
+                                    alt="Delete Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]"
+                                title="Mark as read">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/drafts_baseline_nv700_20dp.png"
+                                    alt="Drafts Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Snoozed">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/refresh_baseline_nv700_20dp.png"
+                                    alt="Snooze Icon">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li
+                    class="flex justify-start border-solid border hover:border-x-[#e1e3e1] cursor-pointer hover:shadow-md border-y-[#e1e3e1] border-x-[#f2f6fc] w-full bg-[#f2f6fc] hover:z-[1] relative">
+                    <div class="flex items-center min-w-[275px]">
+                        <div class="py-[10px] mr-[-10px] cursor-grab">
+                            <img class="h-5 w-5 opacity-0 dragger-icon"
+                                src="https://i.ibb.co/ynh74Fp/output-onlinepngtools-4.png" alt="Dragger Icon">
+                        </div>
+                        <div class="p-[10px] mx-[-5px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2] cursor-pointer"
+                            title="Select">
+                            <img class="h-5 w-5 opacity-30"
+                                src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/check_box_outline_blank_baseline_nv700_20dp.png"
+                                alt="Box Icon">
+                        </div>
+                        <div class="p-[10px] ml-[-5px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2] cursor-pointer"
+                            title="Select">
+                            <img class="h-5 w-5 opacity-30"
+                                src="https://www.gstatic.com/images/icons/material/system_gm/1x/star_border_black_20dp.png"
+                                alt="Star Icon">
+                        </div>
+                        <p class="font-normal text-[14px]">Carol Davis from HealthPlus</p>
+                    </div>
+                    <div
+                        class="flex items-center gap-[5px] mr-[50px] min-w-[0] flex-1 flex-shrink flex-auto overflow-hidden">
+                        <p class="whitespace-nowrap font-normal text-[14px] text-[#202124]">New Employee Onboarding 🎉
+                        </p>
+                        <span
+                            class="whitespace-nowrap overflow-hidden text-ellipsis font-normal text-[14px] text-[#5f6368]">-
+                            Please welcome our new team member, John Doe. He will be joining us from Monday.</span>
+                    </div>
+                    <div id="tools"
+                        class="min-w-[72px] pr-[16px] text-[12px] font-medium flex items-center justify-end tools-container">
+                        <span class="flex  ">11:45AM</span>
+                        <div class="hidden tools-icons">
+                            <div
+                                class="bg-[#ffffff] hover:bg-[#f2f2f2] flex h-[20px] px-2 mr-[10px] font-normal text-[12px] items-center my-auto rounded-md border-solid border border-[#e1e3e1]">
+                                <span>Unsubscribe</span>
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Archive">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/archive_baseline_nv700_20dp.png"
+                                    alt="Archive Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Delete">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/delete_baseline_nv700_20dp.png"
+                                    alt="Delete Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]"
+                                title="Mark as read">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/drafts_baseline_nv700_20dp.png"
+                                    alt="Drafts Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Snoozed">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/refresh_baseline_nv700_20dp.png"
+                                    alt="Snooze Icon">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li
+                    class="flex justify-start border-solid border hover:border-x-[#e1e3e1] cursor-pointer hover:shadow-md border-y-[#e1e3e1] border-x-[#f2f6fc] w-full bg-[#f2f6fc] hover:z-[1] relative">
+                    <div class="flex items-center min-w-[275px]">
+                        <div class="py-[10px] mr-[-10px] cursor-grab">
+                            <img class="h-5 w-5 opacity-0 dragger-icon"
+                                src="https://i.ibb.co/ynh74Fp/output-onlinepngtools-4.png" alt="Dragger Icon">
+                        </div>
+                        <div class="p-[10px] mx-[-5px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2] cursor-pointer"
+                            title="Select">
+                            <img class="h-5 w-5 opacity-30"
+                                src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/check_box_outline_blank_baseline_nv700_20dp.png"
+                                alt="Box Icon">
+                        </div>
+                        <div class="p-[10px] ml-[-5px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2] cursor-pointer"
+                            title="Select">
+                            <img class="h-5 w-5 opacity-30"
+                                src="https://www.gstatic.com/images/icons/material/system_gm/1x/star_border_black_20dp.png"
+                                alt="Star Icon">
+                        </div>
+                        <p class="font-normal text-[14px]">David Brown</p>
+                    </div>
+                    <div
+                        class="flex items-center gap-[5px] mr-[50px] min-w-[0] flex-1 flex-shrink flex-auto overflow-hidden">
+                        <p class="whitespace-nowrap font-normal text-[14px] text-[#202124]">Budget Approval</p>
+                        <span
+                            class="whitespace-nowrap overflow-hidden text-ellipsis font-normal text-[14px] text-[#5f6368]">-💰
+                            The budget for the next quarter has been approved. Please review the attached document for
+                            details.</span>
+                    </div>
+                    <div id="tools"
+                        class="min-w-[72px] pr-[16px] text-[12px] font-medium flex items-center justify-end tools-container">
+                        <span class="flex  ">1:00PM</span>
+                        <div class="hidden tools-icons">
+                            <div
+                                class="bg-[#ffffff] hover:bg-[#f2f2f2] flex h-[20px] px-2 mr-[10px] font-normal text-[12px] items-center my-auto rounded-md border-solid border border-[#e1e3e1]">
+                                <span>Unsubscribe</span>
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Archive">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/archive_baseline_nv700_20dp.png"
+                                    alt="Archive Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Delete">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/delete_baseline_nv700_20dp.png"
+                                    alt="Delete Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]"
+                                title="Mark as read">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/drafts_baseline_nv700_20dp.png"
+                                    alt="Drafts Icon">
+                            </div>
+                            <div class="p-[10px] rounded-full focus:bg-[#e4e4e4] hover:bg-[#f2f2f2]" title="Snoozed">
+                                <img class="h-5 w-5"
+                                    src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/refresh_baseline_nv700_20dp.png"
+                                    alt="Snooze Icon">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="bg-white flex justify-between p-[16px]">
+                <div class="flex flex-col justify-start">
+                    <div class="w-[220px] bg-[#dadce0] h-[6px] my-[6px] mx-auto rounded-lg overflow-hidden">
+                        <div class="bg-[#5f6368] text-xs leading-none py-1" style="width: 30%"></div>
+                    </div>
+                    <p class="text-[#5f6368] text-[12px] cursor-pointer hover:underline flex items-center gap-[5px]">5.2
+                        GB of 15 GB used <img class="h-4.5 w-4.5"
+                            src="https://www.gstatic.com/images/icons/material/system_gm/1x/launch_gm_grey_18dp.png"
+                            alt="External Icon"></p>
+                </div>
+                <div class="flex justify-center items-start gap-[3px]">
+                    <p class="text-[12px] hover:underline text-[#5F6368] cursor-pointer">Terms</p>
+                    <span class="mt-[-2.5px] text-[#5F6368] text-[12px]">.</span>
+                    <p class="text-[12px] hover:underline text-[#5F6368] cursor-pointer">Privacy</p>
+                    <span class="mt-[-2.5px] text-[#5F6368] text-[12px]">.</span>
+                    <p class="text-[12px] hover:underline text-[#5F6368] cursor-pointer">Program Policies</p>
+                </div>
+                <div class="flex flex-col items-end">
+                    <p class="text-[12px] text-[#5F6368]">Last account activity: 1 hour ago</p>
+                    <p class="text-[12px] hover:underline text-[#5F6368] cursor-pointer">Details</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right sidebar -->
+        <div id="sidebar"
+            class="w-[66px] min-w-[66px] h-full pt-2 flex flex-col justify-between content-start items-center">
+            <div class="hide-right flex flex-col justify-start content-start items-center gap-[16px] cursor-pointer">
+                <div class="p-[10px] rounded-full hover:bg-[#e8eaed]" title="Calender">
+                    <img class="h-5 w-5" src="https://www.gstatic.com/companion/icon_assets/calendar_2020q4_2x.png"
+                        alt="Calender Icon">
+                </div>
+                <div class="p-[10px] rounded-full hover:bg-[#e8eaed]" title="Keep">
+                    <img class="h-5 w-5" src="https://www.gstatic.com/companion/icon_assets/keep_2020q4v3_2x.png"
+                        alt=" Bulb Icon">
+                </div>
+                <div class="p-[10px] rounded-full hover:bg-[#e8eaed]" title="Tasks">
+                    <img class="h-5 w-5" src="https://www.gstatic.com/companion/icon_assets/tasks_2021_2x.png"
+                        alt="Check Icon">
+                </div>
+                <div class="p-[10px] rounded-full hover:bg-[#e8eaed]" title="Contacts">
+                    <img class="h-5 w-5" src="https://www.gstatic.com/companion/icon_assets/contacts_2022_2x.png"
+                        alt="Profile Icon">
+                </div>
+                <div class="px-[10px] pt-[10px] mt-[8px] border-t border-solid border-[#e1e3e1]"></div>
+                <div class="p-[10px] rounded-full hover:bg-[#e8eaed]" title="Get Add-ons">
+                    <img class="h-5 w-5"
+                        src="https://fonts.gstatic.com/s/i/googlematerialicons/add/v21/black-24dp/1x/gm_add_black_24dp.png"
+                        alt="Plus Icon">
+                </div>
+            </div>
+
+            <div id="toggle-sidebar" class="block p-[10px] mb-2 rounded-full hover:bg-[#e8eaed] cursor-pointer"
+                title="Hide side panel">
+                <svg version="1.1" id="toggle-icon" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 24 24"
+                    enable-background="new 0 0 24 24" xml:space="preserve" fill="#5F6368">
+                    <path d="M8.59,16.59L13.17,12L8.59,7.41L10,6l6,6l-6,6L8.59,16.59z"></path>
+                    <path fill="none" d="M0,0h24v24H0V0z"></path>
+                </svg>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
