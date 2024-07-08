@@ -23,4 +23,3 @@ This project is a clone of the Gmail web interface built using HTML, CSS (with T
 
 ## View Live
 https://gmail-clone-v1.netlify.app/
-Feel free to explore and contribute to this project!
